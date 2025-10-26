@@ -13,6 +13,8 @@ def square_number():
         result = 10 / 5
     except ZeroDivisionError:
         print("Cannot divide by zero!")
+    except ValueError:
+        print("That's not a number! Please enter a valid number.")
     else:
         print("Division successful!")
     finally:
